@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<TITLE>FORM</TITLE>
+</HEAD>
+<BODY>
+<H2 align='center'><font color='#9966FF'>Free Registration</font></H2>
+<FORM action='proses.php' method='post' name='form'>
+<TABLE width='68%' border='0' align='center' cellpadding='0'>
+<TR>
+<TD width='15%'>Nama</TD>
+<TD width='2%'>:</TD>
+<TD width='83%'><input name='txtNama' type='text' id='txtNama'></input></TD>
+</TR>
+<TR>
+<TD >Tgl Lahir</TD>
+<TD>:</TD>
+<TD><input name='txtTgl' type='text' id='txtTgl' size='4' maxlength='2'></input>
+/
+<input name='txtBulan' type='text' id='txtBulan' size='4' maxlength='2'></input>
+/
+<input name='txtTahun' type='text' id='txtTahun' size='8' maxlength='4'></input>
+</TD>
+</TR>
+<TR>
+<TD>Alamat</TD>
+<TD>&nbsp;</TD>
+<TD><textarea name='txtAlamat' cols='40' rows='2' id='txtAlamat'></textarea></TD>
+</TR>
+<TR>
+<TD>Kota</TD>
+<TD>:</TD>
+<TD><input name='txtKota' type='text' id='txtKota'></input></TD>
+</TR>
+<TR>
+<TD>Pekerjaan</TD>
+<TD>:</TD>
+<TD><select name='cboJob' id='cboJob'>
+<option>Tani</option>
+<option>Nelayan</option>
+<option>Karyawan</option>
+</select>
+</TD>
+</TR>
+<TR>
+<TD>Jenis Kelamin</TD>
+<TD>:</TD>
+<TD><input name='radJK' type='radio' value='1' checked>Laki - Laki</input>
+<input type='radio' name='radJK' value='2'>Perempuan</input></TD>
+</TR>
+<TR>
+<TD>Hobby</TD>
+<TD>:</TD>
+<TD><input name='cekReading' type='checkbox' id='cekReading' value='1'>Reading</input></TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><input name='cekSport' type='checkbox' id='cekSport' value='2'>Sport</input></TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><input name='cekSing' type='checkbox' id='cekSing' value='3'>Singing</input></TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><input name='cekTravel' type='checkbox' id='cekTravel' value='4'>Traveling</input></TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><input name='btnKirim' type='submit' id='btnKirim' value='Kirim'></input>
+<input name='btnCancle' type='reset' id='btnCancle' value='Cancle'</TD>
+</TR>
+</TABLE>
+</FORM>
+</BODY>
+</HTML>
